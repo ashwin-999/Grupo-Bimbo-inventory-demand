@@ -13,6 +13,3 @@ future demand.
 ## To reconstruct the solution
 - Put all data from Kaggle into data/
 - run preprocc_train_submit.py for an optimized solution scoring place 13 on the private leaderboard
-- to improve, run the same U-Net model for several classes individually (change the output to only include one class).
-I used additional single models for buildings, structures, tracks and trees, the other predictions performed better from the
-10 class model.
